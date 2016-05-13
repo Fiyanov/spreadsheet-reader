@@ -384,7 +384,7 @@
 				}
 				ksort($this -> Sheets);
 			}
-			return array_values($this -> Sheets);
+			return $this -> Sheets;
 		}
 
 		/**
