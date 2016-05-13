@@ -103,7 +103,7 @@
 
 				foreach ($this -> SheetIndexes as $SheetIndex)
 				{
-					$this -> Sheets[] = $this -> Handle -> boundsheets[$SheetIndex]['name'];
+					$this -> Sheets[$SheetIndex] = $this -> Handle -> boundsheets[$SheetIndex]['name'];
 				}
 			}
 			return $this -> Sheets;
