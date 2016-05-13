@@ -186,7 +186,8 @@
 		 */
 		public function Sheets()
 		{
-			return $this -> Handle -> Sheets();
+			$sheets = $this -> Handle -> Sheets();
+			return $sheets;
 		}
 
 		/**
